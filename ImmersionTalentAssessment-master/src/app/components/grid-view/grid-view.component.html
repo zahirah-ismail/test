@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+
+    </div>
+
+    <div class="icons"></div>
+    <div *ngFor="let user of users">
+        <div class="row">
+            <div class="card block">
+                <img class="card-img-top" [src]=user.Avatar alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">{{user.Username}}</h4>
+                    <h5 class="card-text">{{user.Department}}</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

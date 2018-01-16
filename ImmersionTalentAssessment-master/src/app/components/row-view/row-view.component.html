@@ -1,0 +1,41 @@
+<div class="container">
+
+    <div class="row headings">
+        <div class="col-md-2 justify-content-center">
+            <h5>id</h5>
+        </div>
+
+        <div class="col-md-2 justify-content-center">
+            <h5>Username</h5>
+        </div>
+
+        <div class="col-md-2 justify-content-center">
+            <h5>Gender</h5>
+        </div>
+
+        <div class="col-md-2 justify-content-center">
+            <h5>Email</h5>
+        </div>
+
+        <div class="col-md-2 justify-content-center">
+
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div *ngFor="let user of users">
+
+            <ul class="list-group">
+                <li class="list-group-item">{{user.name}}</li>
+                <li class="list-group-item">{{user.username}}</li>
+                <li class="list-group-item">{{user.email}}</li>
+                <li class="list-group-item"><a class="profile" [routerLink]="'/profile-view'">view profile</a></li>
+            </ul>
+            <br>
+
+
+        </div>
+
+
+    </div>
+</div>

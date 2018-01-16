@@ -1,0 +1,15 @@
+.headings {
+    margin-top: 80px;
+    background: #6ED0F0;
+    border: #6ED0F0;
+    height: 60px;
+    width: 100%;
+}
+
+.viewProfile {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 24px;
+}

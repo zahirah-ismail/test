@@ -1,0 +1,15 @@
+.block {
+    margin-top: 80px;
+    background: #FFFFFF;
+    border: 5px solid #56CCF2;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 15rem;
+    height: 300px;
+}
+
+.profilePicture {
+    position: center;
+    border-radius: 100%;
+}
