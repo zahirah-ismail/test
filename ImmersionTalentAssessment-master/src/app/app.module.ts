@@ -19,7 +19,7 @@ import { DataService } from './service/data.service';
 const appRoutes: Routes =  [
   {path: 'grid-view', component: GridViewComponent},
   {path: 'row-view', component: RowViewComponent },
-  {path: 'profile-view', component: RowViewComponent }
+  {path: 'profile-view', component: ProfileViewComponent }
 ];
 
 @NgModule({
